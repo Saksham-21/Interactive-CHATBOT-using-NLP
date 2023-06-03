@@ -1,0 +1,300 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "homework",
+      "patterns": [
+        "What is our homework?",
+        "What homework do I need to do?",
+        "Is there any homework for today?"
+      ],
+      "responses": [
+        "Today's homework is to complete the assignment on page 32",
+        "Please work on the assignment on page 32 for homework"
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "What is our class schedule?",
+        "When do we have Math class?",
+        "When is our next class?"
+      ],
+      "responses": [
+        "Our class schedule is Math at 9am, English at 10am, and Science at 11am",
+        "Math class starts at 9am, followed by English at 10am and Science at 11am"
+      ]
+    },
+    {
+      "tag": "grades",
+      "patterns": [
+        "How am I doing in class?",
+        "What's my grade?",
+        "Do I need to improve my performance?"
+      ],
+      "responses": [
+        "Please set up a meeting with me to discuss your progress in class",
+        "Let's schedule a meeting to review your performance and grades"
+      ]
+    },
+    {
+      "tag": "extra_help",
+      "patterns": [
+        "I'm struggling with this topic",
+        "Can I get extra help?",
+        "When can I meet you for extra help?"
+      ],
+      "responses": [
+        "I'm available for extra help after school or during lunch break",
+        "You can meet me for extra help during lunch break or after school"
+      ]
+    },
+    {
+      "tag": "class_materials",
+      "patterns": [
+        "Where can I find the class materials?",
+        "What materials do I need for class?",
+        "Do we need any books for this course?"
+      ],
+      "responses": [
+        "You can find the class materials on our online learning platform",
+        "All required materials and books are listed on the course syllabus"
+      ]
+    },
+    {
+      "tag": "lesson_plan",
+      "patterns": [
+        "What's our lesson plan for today?",
+        "What are we going to learn today?",
+        "What's on the agenda for today's class?"
+      ],
+      "responses": [
+        "Today's lesson plan covers quadratic equations and their applications",
+        "In today's class, we'll be learning about quadratic equations and their real-world applications"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "Who was absent today?",
+        "Who is missing from class?",
+        "Did anyone miss today's class?"
+      ],
+      "responses": [
+        "Please check the attendance record to see who was absent",
+        "I'll update the attendance record after class, so you can see who was missing"
+      ]
+    },
+    {
+      "tag": "student_behavior",
+      "patterns": [
+        "How was the class behavior?",
+        "Were there any disruptions?",
+        "Did the students behave well?"
+      ],
+      "responses": [
+        "Overall, the class behavior was good, with no major disruptions",
+        "The students were well-behaved and engaged during the lesson"
+      ]
+    },
+    {
+      "tag": "parent_teacher_meeting",
+      "patterns": [
+        "When is the next parent-teacher meeting?",
+        "When can I meet with parents?",
+        "What's the schedule for parent-teacher conferences?"
+      ],
+      "responses": [
+        "The next parent-teacher meeting is scheduled for the first week of next month",
+        "Parent-teacher conferences will be held during the first week of next month"
+      ]
+    },
+    {
+      "tag": "classroom_management",
+      "patterns": [
+        "How do you handle classroom disruptions?",
+        "What's your approach to classroom management?",
+        "What strategies do you use to maintain a positive learning environment?"
+      ],
+      "responses": [
+        "I use a mix of positive reinforcement, clear expectations, and consistent consequences to manage the classroom",
+        "My classroom management approach involves setting clear rules, providing positive feedback, and addressing disruptions quickly and effectively"
+      ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "What extracurricular activities are available?",
+        "Are there any clubs or sports teams?",
+        "What after-school activities can I join?"
+      ],
+      "responses": [
+        "We offer a variety of extracurricular activities, including clubs, sports teams, and arts programs",
+        "Our school has numerous clubs, sports teams, and arts programs for students to participate in"
+      ]
+    },
+    {
+      "tag": "upcoming_events",
+      "patterns": [
+        "What events are coming up?",
+        "Are there any important dates or events?",
+        "What's happening at school in the coming weeks?"
+      ],
+      "responses": [
+        "Check our school calendar on the website for upcoming events and important dates",
+        "Visit our school website to view the calendar with upcoming events and important dates"
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How can I study more effectively?",
+        "Do you have any study tips?",
+        "What's the best way to prepare for exams?"
+      ],
+      "responses": [
+        "Some effective study tips include setting goals, creating a study schedule, taking breaks, and using active learning techniques",
+        "To study more effectively, try setting realistic goals, organizing your time, taking breaks, and engaging in active learning"
+      ]
+    },
+    {
+      "tag": "project_help",
+      "patterns": [
+        "I need help with my project",
+        "Can you assist me with my project?",
+        "How do I start my project?"
+      ],
+      "responses": [
+        "I'm happy to help with your project! Let's break it down into smaller tasks and tackle them one by one",
+        "Of course! Let's start by discussing your project requirements and creating a plan"
+      ]
+    },
+    {
+      "tag": "school_rules",
+      "patterns": [
+        "What are the school rules?",
+        "Can you tell me about the school's policies?",
+        "What rules do students need to follow?"
+      ],
+      "responses": [
+        "School rules include being respectful, following the dress code, and adhering to academic policies. Check the student handbook for a complete list",
+        "Our school has rules for behavior, dress code, and academics. Refer to the student handbook for more details"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What time do you close?",
+        "What are your hours?",
+        "When are you open?"
+      ],
+      "responses": [
+        "We're open from 9am to 9pm, Monday to Saturday",
+        "Our hours are 9am to 9pm, Monday to Saturday"
+      ]
+    },
+    {
+      "tag": "locations",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "What's your store location?"
+      ],
+      "responses": [
+        "Our store is located at 123 Main St, Anytown",
+        "You can find us at 123 Main St, Anytown"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What's the status of my order?",
+        "Where is my order?",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "You can check your order status on our website or by contacting customer support",
+        "Please contact our customer support team for updates on your order"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "How do I return an item?",
+        "What is your return policy?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "You can return items within 30 days of purchase for a full refund",
+        "Our return policy allows for returns within 30 days of purchase"
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any promotions?",
+        "Do you offer any special deals?"
+      ],
+      "responses": [
+        "We have regular promotions and discounts, check our website for the latest deals",
+        "Visit our website to see our current promotions and discounts"
+      ]
+    }
+  ]
+}
+
